@@ -1,1 +1,97 @@
 /* Your styles here */
+
+/* .app {
+    width: 1366px;
+    height: 1920px;
+    display: flex;
+    justify-content: center;
+} */
+
+
+.logo {
+
+    padding-left: 1rem;
+    background-color: black;
+
+    
+}
+
+.headerContainer {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    /* width: 100vw; */
+    text-align: center;
+   
+}
+
+.descrizione{
+   white-space: pre-line;
+}
+
+.partiamo {
+    background-color: #f04c2f;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+h1 {
+    font-size: 2rem;
+    color: #4f84a3;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.container-2 {
+    float: left; 
+    margin-left: 100px;
+    margin-top: 100px; 
+    /* display: inline-block; */
+
+}
+
+.container-2 > img {
+    border-radius: 200px;
+}
+
+.container-2 > h4{
+    color: #0681d3;
+}
+
+.container-3 {
+    width: 100vw;
+    border: 3px solid red;
+    height: 30px;
+}
+
+section h1  {
+    text-align: center;
+    padding-top: 80px;
+    /* margin-bottom: 1px;
+    margin: 0px; */
+    /* padding-bottom: 2px; */
+    padding-bottom: 0px;
+    color: white;
+
+
+}
+
+section p {
+    text-align: center;
+    color: white;
+
+}
+
+section {
+    clear: both;
+    padding-bottom: 30px;
+    background-color: red;
+    height: 300px;
+}
+
+.testo-1 {
+    font-style: oblique;
+}
