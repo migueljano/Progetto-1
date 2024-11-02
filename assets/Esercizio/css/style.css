@@ -32,11 +32,12 @@
    
 }
 
+
+
 .descrizione{
     margin-top: 0px;
     white-space: pre-line;
-    /* font-family: 'Montserrat', sans-serif;  */
-    line-height: 1.5;
+   
     }
 
 .partiamo {
@@ -52,7 +53,8 @@ h1 {
     font-size: 2rem;
     color: #25a2c3;
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
+    margin: 0px;
 }
 
 .container-2 {
@@ -114,27 +116,27 @@ section {
     border: 1px solid #DEE0E2;
     width: min-content;
     display: inline-block;
+    margin-top: 50px;
     text-align: center;
-    
-    
-    
+    margin-left: 60px;
 }
 
 .containerfoto1 img{
-    width: 400px;
+    width: 345px;
+
 }
  .containerfoto2 img {
-    width: 400px;
+    width: 350px;
  }
 .containerfoto3 img {
-    width: 400px;
+    width: 375px;
 }
 
 .container-footer {
     text-align: center;
     background-color: #25a2c3;
     height: 280px;
-    /* _font-family: 'Montserrat'; */
+    
 }
 
 .container-footer p {
