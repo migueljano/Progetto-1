@@ -9,6 +9,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+* {
+    font-family: 'Montserrat';
+}
 .logo {
 
     padding-left: 1rem;
@@ -32,7 +35,7 @@
 .descrizione{
     margin-top: 0px;
     white-space: pre-line;
-    font-family: 'Montserrat', sans-serif; 
+    /* font-family: 'Montserrat', sans-serif;  */
     line-height: 1.5;
     }
 
@@ -111,6 +114,8 @@ section {
     border: 1px solid #DEE0E2;
     width: min-content;
     display: inline-block;
+    text-align: center;
+    
     
     
 }
@@ -123,4 +128,21 @@ section {
  }
 .containerfoto3 img {
     width: 400px;
+}
+
+.container-footer {
+    text-align: center;
+    background-color: #25a2c3;
+    height: 280px;
+    /* _font-family: 'Montserrat'; */
+}
+
+.container-footer p {
+    color: white;
+    
+
+}
+.container-footer h2 {
+    color: white;
+    padding-top: 50px;
 }
